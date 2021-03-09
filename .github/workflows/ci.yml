@@ -5,6 +5,7 @@ on: [push]
 env:
   eatpdb_version: v0.0.5
   bds_version: 1.16.20.03
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
 jobs:
   build:
